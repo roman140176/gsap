@@ -1,0 +1,23 @@
+
+.scrollRow{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: -60%;
+}
+
+.scrollItem{
+  margin-right: 30px;
+  img{
+    display: block;
+  }
+}
+
+.scrollWrap{
+  overflow: hidden;
+  margin-top: 100px;
+  background-color: red;
+  max-height: 761px;
+}
