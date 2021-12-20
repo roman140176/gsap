@@ -8,6 +8,7 @@
   left: -60%;
 }
 
+
 .scrollItem{
   margin-right: 30px;
   img{
@@ -20,4 +21,15 @@
   margin-top: 100px;
   background-color: red;
   max-height: 761px;
+}
+
+[data-attr="slider"]{
+  transform: rotate(-17deg);
+  position: relative;
+  left: -6%;
+  transform-origin: 10% 0%;
+  margin-bottom: 45px;
+  &:last-child{
+    margin-bottom: 0;
+  }
 }
